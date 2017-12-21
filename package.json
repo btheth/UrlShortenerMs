@@ -1,0 +1,26 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "Url Shortener Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btheth/UrlShortenerMs.git"
+  },
+  "author": "btheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btheth/UrlShortenerMs/issues"
+  },
+  "homepage": "https://github.com/btheth/UrlShortenerMs#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "morgan": "^1.9.0",
+    "url-exists": "^1.0.3"
+  }
+}
